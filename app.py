@@ -66,7 +66,7 @@ else:
         bg_image = None
 
 # --- Apply Cyberpunk CSS ---
-with open("cyberpunk_style_embedded_old.css", "r", encoding="utf-8") as f:
+with open("cyberpunk_style_embedded.css", "r", encoding="utf-8") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # --- Title ---
@@ -259,3 +259,4 @@ for ticker in tickers:
         st.error(f"Could not load info for {ticker}: {e}")
 
 st.caption(f"🔁 Auto-refreshing every {refresh_rate} seconds... (Theme: {theme_choice})")
+
