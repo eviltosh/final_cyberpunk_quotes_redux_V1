@@ -81,7 +81,7 @@ a:hover {
 /* 20% smaller Cyberpunk title on phones */
 @media (max-width: 600px) {
     .cyberpunk-title {
-        font-size: 1em !important; /* was 10em on desktop */
+        font-size: 1.5em !important; /* was 10em on desktop */
     }
 }
 
